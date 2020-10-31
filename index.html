@@ -1,14 +1,36 @@
 <html>
-  <head>
+
+<head>
     <title>Nyan Kat</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script src="js/data.js"></script>
-    <script src="js/Enemy.js"></script>
-    <script src="js/engine-utilities.js"></script>
-    <script src="js/Engine.js"></script>
-    <script src="js/Player.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+    <style>
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+        
+        .app {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="app" class="app"></div>
+        <script src="js/Text.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/Enemy.js"></script>
+        <script src="js/engine-utilities.js"></script>
+        <script src="js/Engine.js"></script>
+        <script src="js/Player.js"></script>s
+        <script src="js/main.js"></script>
+
+    </div>
+    </div>
+</body>
+
 </html>
