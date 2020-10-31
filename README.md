@@ -4,7 +4,7 @@
 
 ### Screen shot of the game before the start button is pressed
 
-<p align="center"><img src="./images/screenshot-game-start-button.png"></p>
+<p align="center"><img src="./images/Screenshot-game-start-button.png"></p>
 
 ### Screen shot in the middle of the game - showing the player has moved up the game
 
